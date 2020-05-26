@@ -1,0 +1,16 @@
+.addFolder textarea{
+    max-width: 50em;
+}
+
+.left {
+    width: 15em!important;
+}
+
+@media screen and (max-width: 500px) {
+    .addFolder textarea {
+        max-width: 90vw;
+    }
+    .left {
+        display: none;
+    }
+}
